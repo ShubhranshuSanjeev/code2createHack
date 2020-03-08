@@ -10,62 +10,171 @@
         <main class="stats-content">
             <div class="capacity-section">
                 <div class="capacity-text">
-                    <i class="material-icons icon">delete</i>
-                    <!-- <br> -->
-                    <p>Check the amount of garbage filled in dustbin</p>
+                    <div class="icon">
+                        <i class="far fa-trash-alt"></i>
+                    </div>
+                    <div class="text">
+                        <p class="logo">Smart</p>
+                        <p class="logo">Segregator</p>
+                    </div>
                 </div>
                 <div class="capacity-bar">
-                    <div class="bar">
-                        <div class="fill"></div>
+                    <div id="bar">
+                        <div id="fill"></div>
                     </div>
                 </div>
             </div>
             <div class="info-section">
                 <div class="row">
                     <div class="card" id="card-1">
-                        <div class="icon" id="icon-1">
-                            <i class="fas fa-seedling"></i>
-                        </div>
-                        <div class="card-data">
-                            <p class="card-heading">Bio-Degradable</p>
-                            <br>
-                            <p class="data">15%</p>
+                        <input type="checkbox" id="card1" class="more" aria-hidden="true">
+                        <div class="content">
+                            <div class="front">
+                                <div class="inner">
+                                    <div class="icon" id="icon-1">
+                                        <i class="fas fa-seedling"></i>
+                                    </div>
+                                    <div class="card-data">
+                                        <p class="card-heading">Bio-Degradable</p>
+                                        <p class="data">15%</p>
+                                        <br>
+                                        <label for="card1" class="button" aria-hidden="true">
+                                            Details&nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <ul>
+                                        <li>Cloth: 100%</li>
+                                    </ul>
+                                    <label for="card1" class="return" aria-hidden="true">
+                                        Back&nbsp;&nbsp;<i class="fas fa-arrow-left"></i>
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="card" id="card-2">
-                        <div class="icon" id="icon-2">
-                            <i class="fas fa-radiation"></i>
-                        </div>
-                        <div class="card-data">
-                            <p class="card-heading">Non Bio-Degradable</p>
-                            <br>
-                            <p class="data">85%</p>
+                        <input type="checkbox" id="card2" class="more" aria-hidden="true">
+                        <div class="content">
+                            <div class="front">
+                                <div class="inner">
+                                    <div class="icon" id="icon-2">
+                                        <i class="fas fa-radiation"></i>
+                                    </div>
+                                    <div class="card-data">
+                                        <p class="card-heading">Non Bio-Degradable</p>
+                                        <p class="data">85%</p>
+                                        <br>
+                                        <label for="card2" class="button" aria-hidden="true">
+                                            Details&nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <ul>
+                                        <li>Cloth:</li>
+                                        <li>Band-Aid:</li>
+                                        <li>Syringe:</li>
+                                    </ul>
+                                    <label for="card2" class="return" aria-hidden="true">
+                                        Back&nbsp;&nbsp;<i class="fas fa-arrow-left"></i>
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="card" id="card-3">
-                        <div class="icon" id="icon-3">
-                            <i class="fas fa-recycle"></i>
-                        </div>
-                        <div class="card-data">
-                            <p class="card-heading">Recycleable</p>
-                            <br>
-                            <p class="data">65%</p>
+                        <input type="checkbox" id="card3" class="more" aria-hidden="true">
+                        <div class="content">
+                            <div class="front">
+                                <div class="inner">
+                                    <div class="icon" id="icon-3">
+                                        <i class="fas fa-recycle"></i>
+                                    </div>
+                                    <div class="card-data">
+                                        <p class="card-heading">Recycleable</p>
+                                        <p class="data">65%</p>
+                                        <br>
+                                        <label for="card3" class="button" aria-hidden="true">
+                                            Details&nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <ul>
+                                        <li>Bottle:</li>
+                                        <li>Band-Aid:</li>
+                                        <li>Syringe:</li>
+                                        <li>Shelling:</li>
+                                    </ul>
+                                    <label for="card3" class="return" aria-hidden="true">
+                                        Back&nbsp;&nbsp;<i class="fas fa-arrow-left"></i>
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="card" id="card-4">
-                        <div class="icon" id="icon-4">
-                            <i class="fas fa-atom"></i>
-                        </div>
-                        <div class="card-data">
-                            <p class="card-heading">Non Recycleable</p>
-                            <br>
-                            <p class="data">35%</p>
+                        <input type="checkbox" id="card4" class="more" aria-hidden="true">
+                        <div class="content">
+                            <div class="front">
+                                <div class="inner">
+                                    <div class="icon" id="icon-4">
+                                        <i class="fas fa-atom"></i>
+                                    </div>
+                                    <div class="card-data">
+                                        <p class="card-heading">Non Recycleable</p>
+                                        <p class="data">35%</p>
+                                        <br>
+                                        <label for="card4" class="button" aria-hidden="true">
+                                            Details&nbsp;&nbsp;<i class="fas fa-arrow-right"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <ul>
+                                        <li>Shelling:</li>
+                                        <li>Syringe:</li>
+                                    </ul>
+                                    <label for="card4" class="return" aria-hidden="true">
+                                        Back&nbsp;&nbsp;<i class="fas fa-arrow-left"></i>
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
     </body>
+    <script>
+        var fill = {{filled}};
+        var ele = document.getElementById("fill");
+        var nele = document.createElement('p');
+        var att = document.createAttribute('id');
+        att.value = 'fill-text';
+        nele.setAttributeNode(att);
+        ele.appendChild(nele);
+        var tele = document.getElementById('fill-text');
+        var i = 0;
+        function animateProgress(){
+            if(i === fill) return;
+            ele.style.width = `${i}%`;
+            tele.innerHTML = `${i}%`;
+            i+=1;
+            setTimeout(animateProgress, 10);
+        }
+        animateProgress();
+    </script>
 </html>
